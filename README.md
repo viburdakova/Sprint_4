@@ -11,15 +11,19 @@
 
 ### Основные тесты
 
-`def test_add_new_book_add_two_books` - Проверка добавления двух книг и наличие первой в общем списке книг
+`def test_add_new_book_add_two_books` - Проверка добавления двух книг и наличие первой в общем списке книг.
 `def test_set_book_genre` - Проверяет установку жанра определенной книге и получение правильного значения жанра.
 `def test_get_book_genre` - Проверяет правильность получения жанра заданной книги.
 `def test_check_added_books_have_no_genres` - Проверяет отсутствие жанра у недавно добавленных книг.
-`def test_get_books_with_specific_genre` - Получение списка книг определенного жанра
+`def test_get_books_with_specific_genre` - Получение списка книг определенного жанра.
 `def test_get_books_for_children` - Проверяет выборку детских книг среди общего списка.
-` def test_age_rated_books_not_in_children_list` - Проверка, что возрастные книги не попадают в детский список.
-`def test_add_and_delete_favorite` - Добавление и удаление любимой книги.
-`def test_get_list_of_favorites_books_empty`- Проверяет, что добавленная книга попала в коллекцию всех книг (`add_new_book`), а затем её добавление в избранные (`add_book_in_favorites`).
+`def test_delete_book_from_favorites` - Удаление книги из избранных.
+`def test_get_list_of_favorites_books`- Получение списка избранных книг.
+`def test_add_to_favorites` - Добавление книги в избранное.
+`def test_get_books_genre_empty` - Проверяет, что возвращается пустой словарь.
+`def test_get_books_genre_with_books` - Добавляет несколько книг с установленными жанрами и проверяет, что возвращается правильный словарь с названиями книг и их жанрами.
+
+
 
 
 
